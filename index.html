@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--=== MAIN CSS ===-->
+    <link rel="stylesheet" href="style.css">
+    <!--=== FONTAWESOME CSS ===-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Personal Portfolio Website</title>
+</head>
+
+<body>
+    <!--=== HEADER SECTION ===-->
+    <header>
+        <!--=== profile ===-->
+        <div class="profile">
+            <img src="./img/profiledp.jpeg" alt="">
+            <h1>Mridul Patra</h1>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/mridul.patra.566"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://github.com/comed03"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="www.linkedin.com/in/mridul-patra-952710285"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+
+        <!--=== NAV BAR ===-->
+        <nav>
+            <ul>
+                <li><a href="#home" class="active"><i class="fa-solid fa-house"></i> Home</a></li>
+                <hr><br>
+                <li><a href="#about"><i class="fa-solid fa-user"></i> About</a></li>
+                <hr><br>
+                <li><a href="#skill"><i class="fa-solid fa-book-open"></i> Skills</a></li>
+                <hr><br>
+                <li><a href="#education"><i class="fa-solid fa-graduation-cap"></i> Education</a></li>
+                <hr><br>
+                <li><a href="#portfolio"><i class="fa-solid fa-briefcase"></i> Projects</a></li>
+                <hr><br>
+                <li><a href="#services"><i class="fa-solid fa-server"></i> Services</a></li>
+                <hr><br>
+                <li><a href="#contact"><i class="fa-solid fa-envelope"></i> Contact Me</a></li>
+                <hr><br>
+            </ul>
+        </nav>
+
+        <!--=== FOOTER ===-->
+        <div class="footer">
+            <p>&copy; Copyright 2024 <br>Designed by <a href="#">@maddy!</a></p>
+        </div>
+    </header>
+
+    <i class="fa-solid fa-bars" id="MenuBtn"></i>
+
+    <!--================== ALL BODY CONTENT ==================-->
+    <main>
+        <!--======= HOME SECTION =======-->
+        <section id="home">
+            <div class="home-row">
+                <h1>Hi, this is <br>Mridul Patra<span>.</span></h1>
+                <p>I'm a <span id="auto-input"></span></p><br>
+                <a href="#" class="btn">Download CV</a>
+            </div>
+        </section>
+
+        <!--======= ABOUT SECTION =======-->
+        <section id="about">
+            <h1 class="sub-heading">About Me</h1>
+            <div class="divider"></div>
+            <p class="sub-para">
+                Mridul Patra is a 3rd-year B.Tech IT student with expertise in Web Development And Problem Solving. Proficient in HTML, CSS, JavaScript, and web frameworks. Mridul is known for his collaborative spirit and problem-solving abilities, making valuable contributions to successful projects. He is poised to drive innovation and advance technology in 
+                the tech industry. 
+            </p>
+
+            <div class="about-col">
+                <div class="img-col">
+                    <img src="./img/aboutImg.jpeg" alt="">
+                </div>
+
+                <div class="info-col">
+                    <h2>Front-End Developer</h2>
+                    <p>An aspiring Front-End Developer, I am deeply passionate about crafting immersive user experiences through web development. Equipped with a solid understanding of HTML, CSS, and JavaScript fundamentals, I am eager to embark on new challenges and expand my skill set. I thrive in environments where I can contribute to innovative solutions and grow alongside experienced professionals. With a commitment to continuous improvement,  I am poised to grow and evolve in the dynamic field of web development</p>
+                    <div class="icon-list-col">
+                        <div class="icon-list">
+                            <ul>
+                                <li><i class="fa-solid fa-angles-right"></i><strong>Website:</strong>
+                                    <span>www.MridulPortfolio.xyz</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><strong>Phone:</strong> <span>+91 7439 444
+                                        410</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><strong>Email:</strong>
+                                    <span>mridulpatra03@gmail.com</span></li>
+                            </ul>
+                        </div>
+
+                        <div class="icon-list">
+                            <ul>
+                                <li><i class="fa-solid fa-angles-right"></i><strong>Degree:</strong> <span>B.tech</span>
+                                </li>
+                                <li><i class="fa-solid fa-angles-right"></i><strong>Date of Birth:</strong>
+                                    <span>31-JUL-2003</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><strong>City:</strong> <span>Kolkata,
+                                India</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <a href="#" class="btn">Hire Me</a>
+                </div>
+            </div>
+        </section>
+
+        <!--======= fact SECTION =======-->
+<!--         <section id="fact">
+            <h1 class="sub-heading">Hobbies</h1>
+            <div class="divider"></div>
+            <p class="sub-para">Outside of my professional pursuits, I enjoy immersing myself in various hobbies that enrich my life and contribute to my personal growth.  These interests not only provide balance to my life but also foster creativity, problem-solving skills, and resilience that positively impact my professional endeavors.</p>
+
+            <div class="fact-row">
+                <div class="fact-box">
+                    <i class="fas fa-cricket"></i>
+
+                    <strong>70+</strong>
+                    <p>Playing Cricket</p>
+                </div>
+                <div class="fact-box">
+                    <i class="fa-solid fa-file-code"></i>
+                    <strong>100+</strong>
+                    <p>Projects Completed</p>
+                </div>
+                <div class="fact-box">
+                    <i class="fa-solid fa-headset"></i>
+                    <strong>24/7</strong>
+                    <p>Hours of Support</p>
+                </div>
+                <div class="fact-box">
+                    <i class="fa-solid fa-clock-rotate-left"></i>
+                    <strong>15+</strong>
+                    <p>Pending Orders</p>
+                </div>
+            </div>
+        </section> -->
+
+        <!--======= SKILLS SECTION =======-->
+        <section id="skill">
+            <h1 class="sub-heading">Skills</h1>
+            <div class="divider"></div>
+            <p class="sub-para"></p>
+
+            <div class="skill-row">
+                <div class="skill-box">
+                    <div class="skill-info">
+                        <h2>HTML</h2>
+                        <h2>60%</h2>
+                    </div>
+                    <div class="skill-outter-line">
+                        <div class="skill-inner-line" style="width: 85%;"></div>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-info">
+                        <h2>CSS</h2>
+                        <h2>50%</h2>
+                    </div>
+                    <div class="skill-outter-line">
+                        <div class="skill-inner-line" style="width: 85%;"></div>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-info">
+                        <h2>JavaScript</h2>
+                        <h2>40%</h2>
+                    </div>
+                    <div class="skill-outter-line">
+                        <div class="skill-inner-line" style="width: 75%;"></div>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-info">
+                        <h2>Oops-Java</h2>
+                        <h2>50%</h2>
+                    </div>
+                    <div class="skill-outter-line">
+                        <div class="skill-inner-line" style="width: 95%;"></div>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-info">
+                        <h2>DSA in C++</h2>
+                        <h2>60%</h2>
+                    </div>
+                    <div class="skill-outter-line">
+                        <div class="skill-inner-line" style="width: 70%;"></div>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-info">
+                        <h2>Front-End</h2>
+                        <h2>60%</h2>
+                    </div>
+                    <div class="skill-outter-line">
+                        <div class="skill-inner-line" style="width: 90%;"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--======= EDUCATION SECTION =======-->
+        <section id="education">
+            <h1 class="sub-heading">Education</h1>
+            <div class="divider"></div>
+            <p class="sub-para"></p>
+
+            <div class="edu-row">
+                <div class="edu-cols">
+                    <h2>Summery</h2>
+                    <div class="my-info">
+                        <h3>Mridul Patra</h3>
+                        <p></p>
+                        <ul>
+                            <li>Kolkata, India</li>
+                            <li>+91 7439 444 410</li>
+                            <li>mridulpatra03@gmail.com</li>
+                        </ul>
+                    </div>
+
+                    <div class="my-edu">
+                        <h3>Bachelor of Technology at Information Technology</h3>
+                        <span class="sp-box">2022-2026</span>
+                        <p>Institute Of Engineering and Management , Kolkata</p>
+                        <p>Cgpa : 9.29</p>
+                    </div>
+                </div>
+
+                <div class="edu-cols">
+                    <div class="pro-exp">
+                        <h3>Higher Secondary </h3>
+                        <span class="sp-box">2019-2021</span>
+                        <p>Baranagar Narendranath Vidyamandir, Kolkata</p>
+                        <ul>
+                            <li>Grade: 84% </li>
+                        </ul>
+                    </div>
+
+                    <div class="pro-exp">
+                        <h3>Web Developer</h3>
+                        <span class="sp-box">2007-2019</span>
+                        <p>Baranagar Ram Krishna Mission, Kolkata</p>
+                        <ul>
+                            <li>Grade: 95% </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--======= PORTFOLIO SECTION =======-->
+        <section id="portfolio">
+            <h1 class="sub-heading">Projects</h1>
+            <div class="divider"></div>
+            <p class="sub-para">Highlighting impactful projects showcasing my skills and expertise. 
+            Demonstrates ability to innovate, solve problems, and deliver results. 
+            Each project reflects my commitment to excellence and contributes to a proven track record of 
+            success</p>
+
+            <div class="port-row">
+                <div class="port-item">
+                    <div class="port-img">
+                        <img src="./img/project1.png" alt="">
+                    </div>
+                    <div class="port-info">
+                        <h4>Portfolio Website</h4>
+                        <p>Developed a professional portfolio website showcasing my skills, 
+                        experience, and projects. Implemented responsive design and smooth navigation for 
+                        optimal user experience across devices. Utilized HTML, CSS, and JavaScript to create 
+                        visually appealing layouts and interactive elements</p>
+                        <a href="http://127.0.0.1:3000/home.html?name=&email=&subject=&msg=#home"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="port-item">
+                    <div class="port-img">
+                        <img src="img/2.jpg" alt="">
+                    </div>
+                    <div class="port-info">
+                        <h4>Library Management System</h4>
+                        <p>Designed and developed a comprehensive library management system to streamline operations and 
+                        enhance user experience. Implemented features such as book cataloging, borrower management, and 
+                        circulation tracking, ensuring efficient management of library resources.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="port-item">
+                    <div class="port-img">
+                        <img src="img/3.jpg" alt="">
+                    </div>
+                    <div class="port-info">
+                        <h4>Netflix Clone</h4>
+                        <p>Developed a Netflix clone project to replicate the popular streaming platform's user interface and
+                        functionalities. Utilized technologies such as HTML, CSS to create a responsive and visually appealing website</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="port-item">
+                    <div class="port-img">
+                        <img src="img/4.jpg" alt="">
+                    </div>
+                    <div class="port-info">
+                        <h4>Sportify Clone</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde vitae blanditiis, ad sapiente
+                            corrupti quod.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="port-item">
+                    <div class="port-img">
+                        <img src="img/5.jpg" alt="">
+                    </div>
+                    <div class="port-info">
+                        <h4>Web Design</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde vitae blanditiis, ad sapiente
+                            corrupti quod.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="port-item">
+                    <div class="port-img">
+                        <img src="img/6.jpg" alt="">
+                    </div>
+                    <div class="port-info">
+                        <h4>Web Design</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde vitae blanditiis, ad sapiente
+                            corrupti quod.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--======= SERVICES SECTION =======-->
+        <section id="services">
+            <h1 class="sub-heading">Services</h1>
+            <div class="divider"></div>
+            <p class="sub-para"></p>
+
+            <div class="service-row">
+                <div class="service-box">
+                    <div class="icon">
+                        <i class="fa-solid fa-code code"></i>
+                    </div>
+                    <div class="ser-info">
+                        <h4>Front-End Development</h4>
+                        <p>Proficient in HTML, CSS, and JavaScript frameworks like React and bootstrap,
+                        with a focus on responsive design and cross-browser compatibility. Passionate about
+                        creating intuitive interfaces, optimizing performance, and ensuring accessibility 
+                        across various devices and browsers</p>
+                    </div>
+                </div>
+                <div class="service-box">
+                    <div class="icon">
+                        <i class="fa-solid fa-palette pal"></i>
+                    </div>
+                    <div class="ser-info">
+                        <h4>DSA</h4>
+                        <p>Embarking on the journey of Data Structures and Algorithms (DSA) in C++.
+                        Exploring data structures such as arrays, linked lists, and trees, alongside algorithms like 
+                        sorting and searching, I aim to strengthen my problem-solving skills and optimize code
+                         efficiency through hands-on practice and learning</p>
+                    </div>
+                </div>
+                <div class="service-box">
+                    <div class="icon">
+                        <i class="fa-solid fa-robot"></i>
+                    </div>
+                    <div class="ser-info">
+                        <h4>AI & ML</h4>
+                        <p>Venturing into the realm of Artificial Intelligence &  Machine Learning with 
+                        foundational understanding, I am intrigued by the potential to harness data-driven insights 
+                        and automation. Exploring basic concepts such as supervised learning and regression, I aspire 
+                        to leverage AI and ML to address real-world challenges.</p>
+                    </div>
+                </div>
+                <div class="service-box">
+                    <div class="icon">
+                        <i class="fa-brands fa-python"></i>
+                    </div>
+                    <div class="ser-info">
+                        <h4>Data Science</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum cumque voluptatem fuga,
+                            expedita consequuntur voluptatibus ad sed inventore. At aliquam repellat, provident autem
+                            commodi veniam deserunt quas consectetur minima totam?</p>
+                    </div>
+                </div>
+                <div class="service-box">
+                    <div class="icon">
+                        <i class="fa-brands fa-java"></i>
+                    </div>
+                    <div class="ser-info">
+                        <h4>Oops</h4>
+                        <p>LProficient in Object-Oriented Programming (OOP) principles in Java, 
+                            including encapsulation, inheritance, polymorphism, and abstraction. Skilled 
+                            in designing and implementing robust, modular solutions, enhancing code reusability, 
+                            maintainability, and scalability in software development project</p>
+                    </div>
+                </div>
+                <div class="service-box">
+                    <div class="icon">
+                        <i class="fa-solid fa-database"></i>
+                    </div>
+                    <div class="ser-info">
+                        <h4>DBMS</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum cumque voluptatem fuga,
+                            expedita consequuntur voluptatibus ad sed inventore. At aliquam repellat, provident autem
+                            commodi veniam deserunt quas consectetur minima totam?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--======= CONTACT SECTION =======-->
+        <section id="contact">
+            <h1 class="sub-heading">Contact</h1>
+            <div class="divider"></div>
+            <p class="sub-para">
+                
+            </p>
+
+            <div class="contact-row">
+                <div class="contact-left">
+                    <div class="icon-box">
+                        <div class="icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="info">
+                            <h4>Email:</h4>
+                            <p>mridulpatra03@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="icon-box">
+                        <div class="icon">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div class="info">
+                            <h4>Phone:</h4>
+                            <p>+91 7439 444 410</p>
+                        </div>
+                    </div>
+                    <div class="icon-box">
+                        <div class="icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="info">
+                            <h4>Location:</h4>
+                            <p>Kolkata, India</p>
+                        </div>
+                    </div>
+
+                    <div class="map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3682.6108889586126!2d88.42025867507955!3d22.631001179450116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f89e3e659ced1d%3A0xf6781bfefd30ea56!2s6%2F1%2C%20Jessore%20Rd%2C%20K.B.Sarani%2C%20Arjunpur%2C%20Dum%20Dum%2C%20North%20Dumdum%2C%20West%20Bengal%20700080!5e0!3m2!1sen!2sin!4v1711354110399!5m2!1sen!2sin"
+                            width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="name" id="name" placeholder="Your Name">
+                        <input type="email" name="email" id="email" placeholder="Your Email">
+                        <input type="text" name="subject" id="subject" placeholder="Subject">
+                        <textarea name="msg" id="msg" rows="9" placeholder="Your Message"></textarea>
+                        <input type="submit" value="Send Message">
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <!--=== Typed JS (for typing effect) ===-->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!--=== MAIN JS ===-->
+    <script src="main.js"></script>
+</body>
+
+</html>
